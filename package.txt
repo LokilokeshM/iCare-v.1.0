@@ -1,0 +1,21 @@
+npm install jquery --save
+npm i @fortawesome/fontawesome-free
+npm install bootstrap@4.3.1 --save
+npm i @types/jquery
+npm install popper.js --save
+npm install --save chart.js
+npm i angular-ng-autocomplete
+npm i ng2-charts
+npm install ng2-charts@2.2.3 --save
+npm install chart.js@2.9.3 --save
+npm i ngx-bootstrap
+@angular/material@7.3.2
+npm i datatables
+npm i @kolkov/angular-editor	
+
+npm install jquery --save
+npm install datatables.net --save
+npm install datatables.net-dt --save
+npm install angular-datatables --save
+npm install @types/jquery --save-dev
+npm install @types/datatables.net --save-dev

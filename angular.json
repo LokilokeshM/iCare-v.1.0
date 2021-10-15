@@ -29,7 +29,26 @@
             "styles": [
               "projects/icare-main/src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.js",
+              "node_modules/datatables.net/js/jquery.dataTables.js",
+              "node_modules/popper.js/dist/umd/popper.min.js",
+              "node_modules/chart.js/dist/Chart.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "projects/icare-main/src/assets/plugins/jquery-ui/jquery-ui.min.js",
+              "projects/icare-main/src/assets/plugins/bootstrap/js/bootstrap.bundle.min.js",
+              "projects/icare-main/src/assets/plugins/sparklines/sparkline.js",
+              "projects/icare-main/src/assets/plugins/jqvmap/jquery.vmap.min.js",
+              "projects/icare-main/src/assets/plugins/jqvmap/maps/jquery.vmap.usa.js",
+              "projects/icare-main/src/assets/plugins/jquery-knob/jquery.knob.min.js",
+              "projects/icare-main/src/assets/plugins/moment/moment.min.js",
+              "projects/icare-main/src/assets/plugins/daterangepicker/daterangepicker.js",
+              "projects/icare-main/src/assets/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js",
+              "projects/icare-main/src/assets/plugins/summernote/summernote-bs4.min.js",
+              "projects/icare-main/src/assets/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js",
+              "projects/icare-main/src/assets/dist/js/adminlte.js",
+              "projects/icare-main/src/assets/dist/js/demo.js",
+              "projects/icare-main/src/assets/dist/js/pages/dashboard.js"]
           },
           "configurations": {
             "production": {
