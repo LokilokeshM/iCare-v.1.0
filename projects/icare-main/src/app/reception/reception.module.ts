@@ -5,6 +5,8 @@ import { ReceptionRoutingModule } from './reception-routing.module';
 import { DashboardComponent } from './Components/dashboard/dashboard.component';
 import { PatientRegistrationComponent } from './Components/patient-registration/patient-registration.component';
 import { PatientSearchComponent } from './Components/patient-search/patient-search.component';
+import { DataTablesModule } from 'angular-datatables';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -17,6 +19,8 @@ import { PatientSearchComponent } from './Components/patient-search/patient-sear
     CommonModule,
     ReceptionRoutingModule, 
     ChartsModule,
+    DataTablesModule,
+    HttpClientModule
   ]
 })
 export class ReceptionModule { }

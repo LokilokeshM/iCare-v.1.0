@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './Common/Components/login/login.component';
 import { DefaultLayoutComponent } from './Common/Components/default-layout/default-layout.component';
 import { PageNotFoundComponent } from './Common/Components/page-not-found/page-not-found.component';
+import { DataTablesModule } from 'angular-datatables';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { PageNotFoundComponent } from './Common/Components/page-not-found/page-n
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    DataTablesModule.forRoot(),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
