@@ -7,6 +7,7 @@ import { PatientRegistrationComponent } from './Components/patient-registration/
 import { PatientSearchComponent } from './Components/patient-search/patient-search.component';
 import { DataTablesModule } from 'angular-datatables';
 import { HttpClientModule } from '@angular/common/http';
+import { TabsModule } from 'ngx-bootstrap/tabs';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { HttpClientModule } from '@angular/common/http';
     ReceptionRoutingModule, 
     ChartsModule,
     DataTablesModule,
-    HttpClientModule
+    HttpClientModule,
+    TabsModule.forRoot()
   ]
 })
 export class ReceptionModule { }

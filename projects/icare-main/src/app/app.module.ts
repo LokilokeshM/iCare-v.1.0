@@ -5,8 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './Common/Components/login/login.component';
 import { DefaultLayoutComponent } from './Common/Components/default-layout/default-layout.component';
-import { PageNotFoundComponent } from './Common/Components/page-not-found/page-not-found.component';
+import { PageNotFoundComponent } from './Common/Components/Error/page-not-found/page-not-found.component';
 import { DataTablesModule } from 'angular-datatables';
+import { TabsModule } from 'ngx-bootstrap/tabs';
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
@@ -20,7 +21,8 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     DataTablesModule.forRoot(),
-    HttpClientModule
+    HttpClientModule,
+    TabsModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
