@@ -3,8 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LoginComponent } from './Common/Components/login/login.component';
-import { DefaultLayoutComponent } from './Common/Components/default-layout/default-layout.component';
+import { LoginComponent } from './Common/login/login.component';
+import { DefaultLayoutComponent } from './Common/default-layout/default-layout.component';
 
 @NgModule({
   declarations: [
