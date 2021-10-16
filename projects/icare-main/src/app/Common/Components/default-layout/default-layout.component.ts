@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./default-layout.component.css']
 })
 export class DefaultLayoutComponent implements OnInit {
-
+  date = new Date();
   constructor() { }
 
   ngOnInit(): void {

@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
+import { ChartsModule } from 'ng2-charts';
 import { ReceptionRoutingModule } from './reception-routing.module';
 import { DashboardComponent } from './Components/dashboard/dashboard.component';
 import { PatientRegistrationComponent } from './Components/patient-registration/patient-registration.component';
@@ -11,11 +11,12 @@ import { PatientSearchComponent } from './Components/patient-search/patient-sear
   declarations: [
     DashboardComponent,
     PatientRegistrationComponent,
-    PatientSearchComponent
+    PatientSearchComponent,
   ],
   imports: [
     CommonModule,
-    ReceptionRoutingModule
+    ReceptionRoutingModule, 
+    ChartsModule,
   ]
 })
 export class ReceptionModule { }

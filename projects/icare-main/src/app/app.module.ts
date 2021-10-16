@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './Common/Components/login/login.component';
 import { DefaultLayoutComponent } from './Common/Components/default-layout/default-layout.component';
+import { PageNotFoundComponent } from './Common/Components/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    DefaultLayoutComponent
+    DefaultLayoutComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
