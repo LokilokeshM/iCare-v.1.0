@@ -9,7 +9,7 @@ import { PageNotFoundComponent } from './Common/Components/Error/page-not-found/
 import { DataTablesModule } from 'angular-datatables';
 import { TabsModule } from 'ngx-bootstrap/tabs';
 import { HttpClientModule } from '@angular/common/http';
-
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,6 +19,7 @@ import { HttpClientModule } from '@angular/common/http';
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
     DataTablesModule.forRoot(),
     HttpClientModule,
