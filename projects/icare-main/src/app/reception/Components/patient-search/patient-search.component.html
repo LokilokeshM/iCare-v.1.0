@@ -1,24 +1,107 @@
 <section class="content">
-	<!-- Top Nav -->
-	<div>
-		<ul class="nav nav-tabs topnav">
-		  <li class="settingshead"><a class="active" href="#appointments" data-toggle="tab">Appointments</a></li>
-		  <li class="settingshead"><a href="#allPatients" data-toggle="tab">All Patients</a></li>
-		</ul>
-	  </div>
+  <!-- Top Nav -->
+  <div>
+    <ul class="nav nav-tabs topnav">
+      <li class="settingshead">
+        <a class="active" href="#appointments" data-toggle="tab"
+          >Appointments</a
+        >
+      </li>
+      <li class="settingshead">
+        <a href="#allPatients" data-toggle="tab">All Patients</a>
+      </li>
+    </ul>
+  </div>
+  <!-- Starting of Tab Appointments -->
+  <div class="tab-content">
+    <div class="tab-pane active" id="appointments">
+      <!-- Heading for the Appointment Screen -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 form-group">
+            <label class="control-label">Switch to </label>
+            <input
+              type="button"
+              class="btn btn-primary form-control"
+              value="Calender View"
+            />
+          </div>
+          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 form-group">
+            <label class="control-label">Date</label>
+            <input type="date" class="form-control" value="" />
+          </div>
+          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 form-group">
+            <label class="control-label">Hospitals/Clinic</label>
+            <select class="form-control" id="">
+              <option class="form-control" selected>All hospitals</option>
+              <option class="form-control" value="other">Mr</option>
+              <option class="form-control" value="other">Mr</option>
+              <option class="form-control" value="other">Mr</option>
+              <option class="form-control" value="other">Mr</option>
+              <option class="form-control" value="other">Mr</option>
+            </select>
+          </div>
+          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 form-group">
+            <label class="control-label">Doctors</label>
+            <select class="form-control" id="">
+              <option class="form-control" selected>All Doctors</option>
+              <option class="form-control" value="other">Mr</option>
+              <option class="form-control" value="other">Mr</option>
+              <option class="form-control" value="other">Mr</option>
+              <option class="form-control" value="other">Mr</option>
+              <option class="form-control" value="other">Mr</option>
+            </select>
+          </div>
+          <div
+            class="
+              col-xs-3 col-sm-3 col-md-3 col-lg-3
+              form-group
+              justify-content-end
+            "
+            align="end"
+          >
+            <label class="control-label"></label>
+            <div class="row">
+              <div class="col form-group">
+                <button class="btn btn-outline-info">Register Patient</button>
+                <button class="btn btn-outline-info">Book Appointments</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of the Heading Container  -->
+      <!-- Main Table of Content -->
+      <div class="container-fluid">
+        <table
+          class="table table-striped table-bordered table-sm row-border hover"
+          datatable
+          [dtOptions]="dtOptions"
+        >
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Website</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let group of data">
+              <td>{{ group.name }}</td>
+              <td>{{ group.email }}</td>
+              <td>{{ group.website }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- End of Appointments Tab -->
+    <!-- All Patients-->
+    <div class="tab-pane" id="allPatients">
+      <div class="namedesig">
+        <h4>Dr. Watson</h4>
+        <p>PhD in Applied Math</p>
+      </div>
+    </div>
+  </div>
 </section>
-
-<div class="tab-content">
-  <div class="tab-pane active" id="appointments">
-    <div class="namedesig">
-      <h4>Dr. John</h4>
-      <p>PhD in Applied Biology</p>
-    </div>
-  </div>
-  <div class="tab-pane" id="allPatients">
-    <div class="namedesig">
-      <h4>Dr. Watson</h4>
-      <p>PhD in Applied Math</p>
-    </div>
-  </div>
-</div>

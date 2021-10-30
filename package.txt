@@ -24,3 +24,4 @@ npm install datatables.net-buttons --save
 npm install datatables.net-buttons-dt --save
 npm install @types/datatables.net-buttons --save-dev
 npm install jszip --save
+ npm i @sweetalert2/ngx-sweetalert2

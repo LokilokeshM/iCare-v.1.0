@@ -27,17 +27,17 @@
               "projects/icare-main/src/assets"
             ],
             "styles": [
-              "projects/icare-main/src/styles.css",  
+              "projects/icare-main/src/styles.css",
               "node_modules/datatables.net-dt/css/jquery.dataTables.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.js",
-              "node_modules/datatables.net/js/jquery.dataTables.js",
-              "node_modules/bootstrap/dist/js/bootstrap.js",
               "node_modules/popper.js/dist/umd/popper.min.js",
               "node_modules/chart.js/dist/Chart.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/datatables.net/js/jquery.dataTables.js",
+              "node_modules/bootstrap/dist/js/bootstrap.js",
               "node_modules/jszip/dist/jszip.js",
               "node_modules/datatables.net-buttons/js/dataTables.buttons.js",
               "node_modules/datatables.net-buttons/js/buttons.colVis.js",
@@ -57,7 +57,8 @@
               "projects/icare-main/src/assets/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js",
               "projects/icare-main/src/assets/dist/js/adminlte.js",
               "projects/icare-main/src/assets/dist/js/demo.js",
-              "projects/icare-main/src/assets/dist/js/pages/dashboard.js"]
+              "projects/icare-main/src/assets/dist/js/pages/dashboard.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -121,9 +122,7 @@
               "projects/icare-main/src/favicon.ico",
               "projects/icare-main/src/assets"
             ],
-            "styles": [
-              "projects/icare-main/src/styles.css"
-            ],
+            "styles": ["projects/icare-main/src/styles.css"],
             "scripts": []
           }
         }
